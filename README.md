@@ -25,11 +25,12 @@ Requirements to run in mac os using docker:
  Steps to build in Android Emulator using docker:
 
       Download flutter_docker(https://drive.google.com/file/d/16iy6Qk3-9jGO734_iuBc3edzgdU9CRxm/view?usp=sharing) and extract it.
+      Copy our project inside flutter_docker>workspace.
       Open Visual Studio Code (With required plugins installed) and make sure Docker is running.
       Open Android Emulator.
       Click the Icon where the red arrow points at and select the option Remote-Containers: Open Folder in Container.
       Select and open the flutter_docker folder.
-      Navigate to workspace>rent_ready_task_vsc inside Visual Studio Code and select Open in terminal.
+      Navigate to workspace>rent_ready_task inside Visual Studio Code and select Open in terminal.
       run the following commands :
           adb tcpip 5555
           adb connect host.docker.internal:5555
