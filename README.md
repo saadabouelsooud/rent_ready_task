@@ -22,22 +22,22 @@ Requirements to run in mac os
 
  Steps to build in Android Emulator:
 
-   Download this flutter_docker folder and extract it.
-   Open Visual Studio Code (With required plugins installed) and make sure Docker is running.
-   Open Android Emulator.
-   Click the Icon where the red arrow points at and select the option Remote-Containers: Open Folder in Container.
-   Select and open the flutter_docker folder.
-   Navigate to workspace>rent_ready_task_vsc inside Visual Studio Code and select Open in terminal.
-   run the following commands :
-       adb tcpip 5555
-       adb connect host.docker.internal:5555
-       adb devices
-   In the previous step, you might get device unauthorized. To fix that, run:
-       adb kill-server
-       adb connect host.docker.internal:5555
-       adb devices
-  Now you will see that the unauthorized error is gone.
-  Run flutter doctor once to verify that the device is recognized by Flutter.
-  Run command flutter run to finally build the app in your emulator.
+      Download this flutter_docker folder and extract it.
+      Open Visual Studio Code (With required plugins installed) and make sure Docker is running.
+      Open Android Emulator.
+      Click the Icon where the red arrow points at and select the option Remote-Containers: Open Folder in Container.
+      Select and open the flutter_docker folder.
+      Navigate to workspace>rent_ready_task_vsc inside Visual Studio Code and select Open in terminal.
+      run the following commands :
+          adb tcpip 5555
+          adb connect host.docker.internal:5555
+          adb devices
+      In the previous step, you might get device unauthorized. To fix that, run:
+          adb kill-server
+          adb connect host.docker.internal:5555
+          adb devices
+     Now you will see that the unauthorized error is gone.
+     Run flutter doctor once to verify that the device is recognized by Flutter.
+     Run command flutter run to finally build the app in your emulator.
 
 
