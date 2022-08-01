@@ -34,7 +34,7 @@ Requirements to run in mac os
           adb devices
       In the previous step, you might get device unauthorized. To fix that, run:
           adb kill-server
-          adb connect host.docker.internal:5555
+          In your docker container connect to device:  adb connect host.docker.internal:5555
           adb devices
      Now you will see that the unauthorized error is gone.
      Run flutter doctor once to verify that the device is recognized by Flutter.
