@@ -1,10 +1,12 @@
-# rent_ready_task
+# Rent Ready Technical Assessment (Implemented to run in Android Emulator)
 
 Rent Ready Technical Assessment.
 
-## Getting Started
+## Getting Started (YOU CAN BUILD IN Android Emulator BY CLONE THIS REPOSITORY THEN OPEN IN ANDROID STUDIO OR VISUAL STUDIO CODE THEN RUN)
 
-Requirements to run in mac os
+OR BUILD & RUN USING DOCKER AS FOLLOW:
+
+Requirements to run in mac os using docker:
 
     Your computer must have at least 8GB of RAM.
     A Mac or a Windows PC/Laptop.
@@ -20,9 +22,9 @@ Requirements to run in mac os
       Run xhost + ${hostname} to allow connections to the macOS host *
       Setup a HOSTNAME env var export HOSTNAME=`hostname`*
 
- Steps to build in Android Emulator:
+ Steps to build in Android Emulator using docker:
 
-      Download this flutter_docker folder and extract it.
+      Download flutter_docker(https://drive.google.com/file/d/16iy6Qk3-9jGO734_iuBc3edzgdU9CRxm/view?usp=sharing) and extract it.
       Open Visual Studio Code (With required plugins installed) and make sure Docker is running.
       Open Android Emulator.
       Click the Icon where the red arrow points at and select the option Remote-Containers: Open Folder in Container.
